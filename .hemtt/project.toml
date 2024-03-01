@@ -13,7 +13,7 @@ include = [
     "LICENSE",
     "logo_cca_ca.paa",
     "meta.cpp",
-    "addons/ARMSCor_Alouette_III.pbo",
+    "addons/*.pbo",
 ]
 exclude = [
     "addons/*/README.md"
@@ -37,6 +37,7 @@ workshop = [
     "1888792228", # CCM3s Workshop ID
     "2369477168", # Advanced Developer Tools Workshop ID
     "2183975396", # S & S Workshop ID
+    "2643518676", # S & S: New Wave Workshop ID
     "843425103", # RHS: AFRF Workshop ID
 ]
 parameters = [
