@@ -194,23 +194,6 @@ class CfgWeapons
 		};
 	};
 
-	class U_simc_og107_veldjas_blench;
-	class U_cca_belg_smock: U_simc_og107_veldjas_blench {
-		author = "Eric";
-		scope = 2;
-		displayName = "[BE] Smock (Brushstroke)";
-		descriptionShort = "Uniform, Fatigues, Smock, Moon & Ball (Belgian Brushstroke)";
-		picture = QPATHTOF(data\belg_v1_icon_ca.paa);
-		
-		class ItemInfo: UniformItem {
-			uniformClass = "cca_belg_smock";
-			uniformModel = "-";
-			containerClass = "Supply60";
-			mass = 40;
-			armor = 0;
-		};
-	};
-
 	class U_cca_sa_cu: U_Simc_arvn_og107 {
 		author = "Eric";
 		scope = 2;

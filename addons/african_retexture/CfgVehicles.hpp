@@ -118,19 +118,6 @@ class CfgVehicles
 		uniformClass = "U_cca_rhod_arid_gss_shorts_rolled";
 	};
 
-	class simc_og107_veldjas_blench;
-	class cca_belg_smock: simc_og107_veldjas_blench {
-		author = "Eric";
-		scope = 1;
-		side = 2;
-		modelSides[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
-		hiddenSelectionsTextures[] = {
-			QPATHTOF(data\belg_v1_co.paa),
-			QPATHTOF(data\belg_pants_co.paa)
-		};
-		uniformClass = "U_cca_belg_smock";
-	};
-
 	class cca_sa_cu: simc_arvn_og107 {
 		author = "Eric";
 		scope = 1;

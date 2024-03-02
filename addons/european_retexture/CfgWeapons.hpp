@@ -4,6 +4,7 @@ class CfgWeapons
 	class UniformItem;
 	class HeadgearItem;
 
+	/* Lithuanian Uniforms */
 	class U_Simc_TCU_mk1_blench;
 	class U_cca_lt_gsu: U_Simc_TCU_mk1_blench {
 		author = "Eric";
@@ -38,6 +39,7 @@ class CfgWeapons
 		};
 	};
 	
+	/* Lithuanian Headgear */
 	class H_Simc_pasgt_m81;
 	class H_cca_lt_pasgt_m05: H_Simc_pasgt_m81 {
 		author = "Eric";
@@ -167,6 +169,117 @@ class CfgWeapons
 		picture = QPATHTOF(data\lt_pasgt_icon_co.paa);
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\lt_pasgt_co.paa)
+		};
+	};
+
+	/* Russian Uniforms */
+	class CUP_U_O_RUS_Ratnik_Summer;
+	class U_cca_ru_6sh122_ribbon_emr_summer: CUP_U_O_RUS_Ratnik_Summer {
+		author = "Eric";
+		scope = 2;
+		displayName = "[RU] 6Sh122 (Summer EMR/Ribbons)";
+		descriptionShort = "Uniform, Masking Suit, 6Sh122, Summer EMR";
+
+		class ItemInfo: UniformItem {
+			uniformClass = "cca_ru_6sh122_ribbon_emr_summer";
+			uniformModel = "-";
+			containerClass = "Supply60";
+			mass = 40;
+			armor = 0;
+		};
+	};
+
+	class U_cca_ru_6sh122_armband_emr_summer: CUP_U_O_RUS_Ratnik_Summer {
+		author = "Eric";
+		scope = 2;
+		displayName = "[RU] 6Sh122 (Summer EMR/Armband)";
+		descriptionShort = "Uniform, Masking Suit, 6Sh122, Summer EMR";
+
+		class ItemInfo: UniformItem {
+			uniformClass = "cca_ru_6sh122_armband_emr_summer";
+			uniformModel = "-";
+			containerClass = "Supply60";
+			mass = 40;
+			armor = 0;
+		};
+	};
+
+	class U_cca_ru_6sh122_ribbon_armband_emr_summer: CUP_U_O_RUS_Ratnik_Summer {
+		author = "Eric";
+		scope = 2;
+		displayName = "[RU] 6Sh122 (Summer EMR/Ribbons/Armband)";
+		descriptionShort = "Uniform, Masking Suit, 6Sh122, Summer EMR";
+
+		class ItemInfo: UniformItem {
+			uniformClass = "cca_ru_6sh122_ribbon_armband_emr_summer";
+			uniformModel = "-";
+			containerClass = "Supply60";
+			mass = 40;
+			armor = 0;
+		};
+	};
+
+	class CUP_U_O_RUS_Ratnik_Autumn;
+	class U_cca_ru_6sh122_ribbon_emr_autumn: CUP_U_O_RUS_Ratnik_Autumn {
+		author = "Eric";
+		scope = 2;
+		displayName = "[RU] 6Sh122 (Autumn EMR/Ribbons)";
+		descriptionShort = "Uniform, Masking Suit, 6Sh122, Summer EMR";
+
+		class ItemInfo: UniformItem {
+			uniformClass = "cca_ru_6sh122_ribbon_emr_autumn";
+			uniformModel = "-";
+			containerClass = "Supply60";
+			mass = 40;
+			armor = 0;
+		};
+	};
+
+	class U_cca_ru_6sh122_armband_emr_autumn: CUP_U_O_RUS_Ratnik_Autumn {
+		author = "Eric";
+		scope = 2;
+		displayName = "[RU] 6Sh122 (Autumn EMR/Armband)";
+		descriptionShort = "Uniform, Masking Suit, 6Sh122, Summer EMR";
+
+		class ItemInfo: UniformItem {
+			uniformClass = "cca_ru_6sh122_armband_emr_autumn";
+			uniformModel = "-";
+			containerClass = "Supply60";
+			mass = 40;
+			armor = 0;
+		};
+	};
+
+	class U_cca_ru_6sh122_ribbon_armband_emr_autumn: CUP_U_O_RUS_Ratnik_Autumn {
+		author = "Eric";
+		scope = 2;
+		displayName = "[RU] 6Sh122 (Autumn EMR/Ribbons/Armband)";
+		descriptionShort = "Uniform, Masking Suit, 6Sh122, Summer EMR";
+
+		class ItemInfo: UniformItem {
+			uniformClass = "cca_ru_6sh122_ribbon_armband_emr_autumn";
+			uniformModel = "-";
+			containerClass = "Supply60";
+			mass = 40;
+			armor = 0;
+		};
+	};
+
+	/* Belgian Uniform */
+	class U_simc_og107_veldjas_blench;
+	class U_cca_belg_smock: U_simc_og107_veldjas_blench {
+		author = "Eric";
+		scope = 2;
+		displayName = "[BE] Smock (Brushstroke)";
+		descriptionShort = "Uniform, Fatigues, Smock, Moon & Ball (Belgian Brushstroke)";
+		picture = QPATHTOF(data\belg_v1_icon_ca.paa);
+		
+		class ItemInfo: UniformItem {
+			uniformClass = "cca_belg_smock";
+			uniformModel = "-";
+			containerClass = "Supply60";
+			mass = 40;
+			armor = 0;
 		};
 	};
 };
