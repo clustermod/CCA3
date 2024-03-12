@@ -4,6 +4,41 @@ class CfgWeapons
 	class UniformItem;
 	class HeadgearItem;
 
+	/* French Uniforms */
+	class sns_f1_uniform;
+	class U_cca_fr_f1: sns_f1_uniform {
+		author = "Eric";
+		scope = 2;
+		displayName = "[FR] F1 Uniform (French Lizard)";
+		descriptionShort = "Uniform, Fatigues, F1 Uniform, French Lizard";
+		picture = QPATHTOF(data\fr_f1_icon_co.paa);
+
+		class ItemInfo: UniformItem {
+			uniformClass = "cca_fr_f1";
+			uniformModel = "-";
+			containerClass = "Supply60";
+			mass = 40;
+			armor = 0;
+		};
+	};
+
+	class sns_f1_uniform_roll;
+	class U_cca_fr_f1_roll: sns_f1_uniform_roll {
+		author = "Eric";
+		scope = 2;
+		displayName = "[FR] F1 Uniform (French Lizard)";
+		descriptionShort = "Uniform, Fatigues, F1 Uniform, French Lizard";
+		picture = QPATHTOF(data\fr_f1_icon_co.paa);
+
+		class ItemInfo: UniformItem {
+			uniformClass = "cca_fr_f1_roll";
+			uniformModel = "-";
+			containerClass = "Supply60";
+			mass = 40;
+			armor = 0;
+		};
+	};
+
 	/* Lithuanian Uniforms */
 	class U_Simc_TCU_mk1_blench;
 	class U_cca_lt_gsu: U_Simc_TCU_mk1_blench {

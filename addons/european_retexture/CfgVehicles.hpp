@@ -1,5 +1,34 @@
 class CfgVehicles
 {
+	/* French Uniforms */
+	class sns_f1_uniform_u;
+	class cca_fr_f1: sns_f1_uniform_u {
+		author = "Eric";
+		scope = 1;
+		side = 2;
+		modelSides[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\fr_f1_co.paa),
+			QPATHTOF(data\fr_f1_co.paa),
+			QUOTE(sns_french\data\frank_bot_co.paa)
+		};
+		uniformClass = "cca_fr_f1";
+	};
+
+	class sns_f1_uniform_roll_u;
+	class cca_fr_f1_roll: sns_f1_uniform_roll_u {
+		author = "Eric";
+		scope = 1;
+		side = 2;
+		modelSides[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\fr_f1_co.paa),
+			QPATHTOF(data\fr_f1_co.paa),
+			QUOTE(sns_french\data\frank_bot_co.paa)
+		};
+		uniformClass = "cca_fr_f1_roll";
+	};
+
 	/* Lithuanian Uniforms */
 	class Simc_TCU_mk1_blench;
 	class cca_lt_gsu: Simc_TCU_mk1_blench {

@@ -41,6 +41,7 @@ workshop = [
     "843425103", # RHS: AFRF Workshop ID
     "497660133", # CUP Weapons Workshop ID
     "497661914", # CUP Units Workshop ID
+    "1673456286", # 3CB Factions
 ]
 parameters = [
     "-skipIntro",
